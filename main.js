@@ -1,3 +1,4 @@
+/*
 import "./style.css";
 
 function getQuote() {
@@ -16,7 +17,9 @@ getQuote()
   })
   .catch((error) => console.error(error));
 
+// for checking ko itong nasa baba
 document.getElementById(button).addEventListener("click", function () {
   location.reload();
   return false;
 });
+*/
