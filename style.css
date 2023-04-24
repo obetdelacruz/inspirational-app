@@ -5,21 +5,8 @@
   background-color: #1f242e;
 }
 
-.quote {
-  display: flex;
-  flex-direction: column;
+h1,
+p {
   text-align: center;
-}
-
-#quote-advice {
-  color: green;
-}
-
-.quote-advice,
-.quote-author {
   color: whitesmoke;
-}
-
-button {
-  border-radius: 50%;
 }

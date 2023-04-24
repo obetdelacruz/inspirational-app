@@ -1,4 +1,3 @@
-/*
 import "./style.css";
 
 function getQuote() {
@@ -12,8 +11,12 @@ function getQuote() {
 getQuote()
   .then((data) => {
     document.body.innerHTML = `<h1>${data[0].author}</h1>
-      <p>${data[0].content}</p>`;
-    document;
+      <p>${data[0].content}</p>
+      <button></button>`;
   })
   .catch((error) => console.error(error));
-*/
+
+document.getElementById(button).addEventListener("click", function () {
+  location.reload();
+  return false;
+});
